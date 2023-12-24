@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Calculator">
+        <lightning-input label="enter the first value" name="aval" onchange={callme}></lightning-input>
+        <lightning-input label="enter the first value" name="bval" onchange={callme}></lightning-input>
+
+       <lightning-button label="Add" onclick={addme}></lightning-button>
+       <lightning-button label="sub" onclick={subme}></lightning-button>
+       <lightning-button label="mul" onclick={mulme}></lightning-button>
+       <lightning-button label="div" onclick={divme}></lightning-button>
+        <p></p>
+        <p></p>
+        result:{showmecal}
+
+    </lightning-card>
+</template>

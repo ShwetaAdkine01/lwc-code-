@@ -1,0 +1,12 @@
+<template>
+    <lightning-card label="Account field input">
+      <lightning-input label="Account Name" type="text" onchange={handName}></lightning-input>
+      <lightning-input label="Account Phone" type="number" onchange={handPhone}></lightning-input>
+      <lightning-input label="Account Rating" type="text" onchange={handrating}></lightning-input>
+      <lightning-input label="Account Industry" type="text" onchange={handindustry}></lightning-input>
+
+      <lightning-button label="submit" onclick={callme}></lightning-button>
+      <lightning-button label="Delete" onclick={Delme}></lightning-button>
+
+    </lightning-card>
+</template>

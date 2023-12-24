@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="using wire contact table" icon-name="standard:account">
+      <template if:true={Contact.data}>
+        <lightning-datatable
+        key-field="Id"
+        data={Contact.data}
+        columns={col}
+        onsave={handleSave}
+        draft-values={draftValues}
+        >
+      </lightning-datatable>
+
+      <template if:true={Contact.error}>
+
+      </template>
+      </template>
+    </lightning-card>
+</template>

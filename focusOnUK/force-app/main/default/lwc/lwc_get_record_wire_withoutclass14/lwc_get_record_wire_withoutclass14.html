@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="get record using wire" icon-name="standard:opportunity">
+      <template if:true={Opportunity.data}>
+       Opportunity Name:{name}     <p></p>
+       Opportunity Amount:{amount} <p></p>
+       Opportunity StageName:{stagename} <p></p>
+      </template>
+
+    </lightning-card>
+</template>

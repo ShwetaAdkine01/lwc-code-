@@ -1,0 +1,12 @@
+<template>
+    <template if:true={accounts}>
+        <template for:each={accounts} for:item="acc">
+       <p key={acc.id}>Name:{acc.Name}====>Rating:{acc.Rating}====>Phone:{acc.Phone}====>industry:{acc.Industry}</p>
+        </template>
+    </template>
+
+    <template if:true={errorhappened}>
+    this data can not be retrive;
+    Error:{errorhappened};
+    </template>
+</template>
