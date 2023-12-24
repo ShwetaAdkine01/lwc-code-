@@ -15,7 +15,7 @@ export default class Callchange_using_Trach4 extends LightningElement {
          this.num2 = event.target.value
       }
    }
-   //   test to check commit
+   //   test to check commit and publish
 
    addme() {
       const a = parseInt(this.num1);
